@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+button.flickity-button.flickity-prev-next-button.next {
+  display: block;
+  background-color: black;
+  color: #ffffff;
+}
+button.flickity-button.flickity-prev-next-button.previous {
+  background: black;
+  color: white;
+}
+
+.card {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.top-heading {
+  color: #5749a6;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.8px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.details {
+  width: 100%;
+  height: 50vh;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(231, 241, 255, 255);
+}
+
+.content {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.person-info {
+  color: rgba(19, 21, 23, 0.75);
+  font-size: 14px;
+}
+
+.person-name {
+  margin: 25px 0 7px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.person-position {
+  color: #5749a6;
+  font-size: 16px;
+}
+
+.carousel {
+  width: 90%;
+  margin: -25px auto 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  border: 10px solid #fff;
+  margin-right: 50px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    margin-left: 10%;
+  }
+
+  .top-heading {
+    font-size: 20px;
+  }
+
+  .inner-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .details {
+    width: 40vw;
+    height: 45vh;
+    padding: 0 40px;
+    border-radius: 20px;
+  }
+
+  .content {
+    width: 75%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .person-info {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .person-name {
+    font-size: 24px;
+  }
+
+  .person-position {
+    font-size: 20px;
+  }
+
+  .carousel {
+    width: 60vw;
+    height: 35vh;
+    margin-left: -55px;
+    background: #fff;
+    /* border-radius: 10px; */
+  }
+
+  .img {
+    width: 25vw;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+  }
+}
